@@ -4,14 +4,26 @@ The components only set for KICAD only
 
 Structure of the folder will be 
 ```bash
-Component_name
-     |---> Footprint folder
-     |---> Symbol folder
-     |---> Reference
+Component_name:
+          ├───Footprint
+          │   └───KICAD_Footprint.pretty
+          │           KICAD_Footprint.kicad_mod
+          │
+          ├───Reference
+          │       Components_Data_sheets.pdf
+          │
+          └───Symbol
+               KICAD_Symbol.kicad_sym
 ```
 
 ## Footrint folder
-Footprint folder contains footprint for the component , the format will be footprint.pretty
+Footprint folder contains footprint for the component , the format will be KICAD_footprint.pretty
+
 
 ## Symbol folder
 Symbol folder contains Symbol of the component , which is created using 
+
+## Reference
+In Reference folder the component's data sheet will be there 
+## Note 
+All Symbols and footprints created only using the information provided in the data sheet 
